@@ -5,6 +5,7 @@ from .models import Item
 
 # Create your views here.
 def index(request):
+    # django way
     items = Item.objects.all()
     # items: QuerySet of Item model instances
 
